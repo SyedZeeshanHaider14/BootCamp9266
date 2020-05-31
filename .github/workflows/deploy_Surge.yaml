@@ -31,7 +31,7 @@ jobs:
       
       
     - name: Run Surge
-      run: surge ./BootCampnewapp.surge.sh
+      run: surge ./BootCampnewapp.surge.sh  --token ${(secrets.SURGE_TOKEON)}
       
       
       
