@@ -31,7 +31,7 @@ jobs:
       
       
     - name: Run Surge
-      run: surge ./ fertile-skirt.surge.sh new folder.surge.sh  ${(secrets.SURGE_TOKEON)}
+      run: surge ./ BootCamp2020app.surge.sh ${(secrets.SURGE_TOKEN)}
       
       
       
